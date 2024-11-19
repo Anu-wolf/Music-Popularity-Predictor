@@ -1,24 +1,24 @@
-# Music-Popularity-Predictor
-This project predicts the popularity of songs based on their musical features using a Random Forest Regression model, allowing music platforms and developers to understand what makes a song popular. By analysing various attributes like energy, dance ability, loudness, and acoustic-ness, we aim to determine how these characteristics influence the popularity of tracks.
+# Music-Popularity-Predictor #
+This project predicts the popularity of songs based on their musical features using a Random Forest Regression model, allowing music platforms and developers to understand what makes a song popular. By analysing various attributes like energy, danceability, loudness, and acoustics, we aim to determine how these characteristics influence the popularity of tracks.
 This tool can be integrated into web apps to help music platforms make data-driven recommendations, evaluate upcoming tracks, or understand trends in music preference.
 
 Features
-- Prediction Model: Random Forest Regression is used to predict a song's popularity.
+- Prediction Model: Random Forest Regression predicts a song's popularity.
 - Data Visualization: The relationship between different musical features and popularity is analysed using scatter plots and correlation matrices.
 - Feature Normalization: Feature scaling is performed to ensure fair model training.
 
  Technologies Used
 - Python: Main programming language.
 - Pandas: For data manipulation and preprocessing.
-- Matplotlib & Seaborn: For data visualization and feature analysis.
-- scikit-learn: For building the Random Forest model and evaluating performance.
+- Matplotlib & Seaborn: This is for data visualization and feature analysis.
+- scikit-learn: This is used to build the Random Forest model and evaluate performance.
 Dataset
 The dataset used in this project is a collection of songs with various musical attributes, such as:
 - Energy
 - Valence
 - Danceability
 - Loudness
-- Acousticness
+- Acoustics
 - Tempo
 - Speechiness
 - Liveness
@@ -34,7 +34,7 @@ Evaluate the potential success of songs before release.
 Create dynamic playlists with high-potential songs.
 4.	Data-Driven Recommendation Engines
 Enhance song recommendations by analyzing feature-popularity relationships.
-How the project is made
+How the project is made:
 1.	Data Cleaning & Exploration
 Dropping Unnecessary Columns: Remove irrelevant columns (like unnamed columns).
 Scatter Plots: Visualize the relationship between features and popularity.
